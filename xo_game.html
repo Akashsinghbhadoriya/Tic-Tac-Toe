@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <Title>XO GAME</Title>
+        <link rel="stylesheet" href="xo_game.css">
+    </head>
+    <body>
+        <section>
+            <h1>TIC TAC TOE GAME</h1>
+        </section>
+        <section id="table">
+            <p id="box1" onclick="mark(0,0,1)">X</p>
+            <p id="box2" onclick="mark(0,1,2)"></p>
+            <p id="box3" onclick="mark(0,2,3)"></p>
+            <p id="box4" onclick="mark(1,0,4)"></p>
+            <p id="box5" onclick="mark(1,1,5)"></p>
+            <p id="box6" onclick="mark(1,2,6)"></p>
+            <p id="box7" onclick="mark(2,0,7)"></p>
+            <p id="box8" onclick="mark(2,1,8)"></p>
+            <p id="box9" onclick="mark(2,2,9)"></p>
+        </section>
+        <section>
+            <button onclick="message(1)">PLAY</button>
+            <button onclick="reset()">RESET</button>
+        </section>
+        <section id="message">
+            <p id="display">Start playing by pressing the play button</p>
+        </section>
+        <script src="xo_game.js"></script>
+    </body>
+</html>

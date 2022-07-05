@@ -1,0 +1,30 @@
+p{
+    width: 100px;
+    height: 100px;
+    background-color: grey; 
+    margin: 2px 2px;
+    font-size: 50px;
+    text-align: center;
+}
+#display{
+    width: 300px;
+    font-size: 20px;
+}
+button{
+    font-size: 30px;
+    background-color: red;
+    margin: 10px 10px;
+}
+#table{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    left: 475px;
+}
+
+section{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
